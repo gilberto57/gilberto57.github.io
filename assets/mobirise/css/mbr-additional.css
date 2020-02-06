@@ -5184,70 +5184,55 @@ section.lazy-placeholder:after {
 .cid-rP6qh2LRkt H3 {
   color: #000000;
 }
-.cid-rP6tmNwY7i {
+.cid-rPFX1F7X6J {
   padding-top: 30px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-rP6tmNwY7i .mbr-section-text {
-  color: #000000;
-  text-align: left;
+.cid-rPFX1F7X6J .mbr-section-subtitle {
+  color: #767676;
+  text-align: center;
+  font-weight: 300;
 }
-.cid-rP6tmNwY7i .mbr-section-subtitle {
-  color: #000000;
+.cid-rPFX1F7X6J .step {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+  border: 2px solid #efefef;
+  padding-bottom: 0;
 }
-.cid-rP6tmNwY7i .tabcont {
-  -webkit-justify-content: center;
-  justify-content: center;
+@media (min-width: 768px) {
+  .cid-rPFX1F7X6J .separline .step-wrapper {
+    position: relative;
+  }
+  .cid-rPFX1F7X6J .separline .step-wrapper:before,
+  .cid-rPFX1F7X6J .separline .step-wrapper:after {
+    top: 27px;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: calc(50% + 15px - 25px - 8px);
+    background-color: #efefef;
+  }
+  .cid-rPFX1F7X6J .separline .step-wrapper:before {
+    left: -15px;
+  }
+  .cid-rPFX1F7X6J .separline .step-wrapper:after {
+    left: calc(50% + 8px + 25px);
+  }
+  .cid-rPFX1F7X6J .separline.last-child .step-wrapper:after,
+  .cid-rPFX1F7X6J .separline:nth-child(3n) .step-wrapper:after,
+  .cid-rPFX1F7X6J .separline:nth-child(3n+1) .step-wrapper:before {
+    background: none;
+  }
 }
-.cid-rP6tmNwY7i .mbr-iconfont {
-  font-size: 48px;
+@media (max-width: 767px) {
+  .cid-rPFX1F7X6J .card:not(.last-child) {
+    padding-bottom: 1.5rem;
+  }
 }
-.cid-rP6tmNwY7i .card-img {
-  margin-bottom: 1.5rem;
-}
-.cid-rP6tmNwY7i .tab-content-row {
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-.cid-rP6tmNwY7i .tab-content {
-  margin-top: 3rem;
-  width: 100%;
-}
-.cid-rP6tmNwY7i .nav-tabs {
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  border-bottom: none;
-}
-.cid-rP6tmNwY7i .nav-tabs .nav-link {
-  box-sizing: border-box;
-  color: #000000;
-  font-style: normal;
-  font-weight: 500;
-  border-radius: 3px;
-  padding: 1rem 3rem;
-  margin: 0.4rem .8rem !important;
-  transition: color .3s;
-  border: 2px solid #000000;
-}
-.cid-rP6tmNwY7i .nav-tabs .nav-link:hover {
-  background: #073b4c;
-}
-.cid-rP6tmNwY7i .nav-tabs .nav-link.active {
-  color: #ffffff;
-  font-style: normal;
-  border: 2px solid #073b4c;
-  background: #073b4c;
-}
-.cid-rP6tmNwY7i .nav-tabs .nav-link.active:hover {
-  border: 2px solid #073b4c;
-}
-.cid-rP6tmNwY7i H2 {
-  color: #000000;
-}
-.cid-rP6tmNwY7i H4 {
+.cid-rPFX1F7X6J .mbr-step-text {
   color: #000000;
 }
 .cid-rPiJeHCr3E {
