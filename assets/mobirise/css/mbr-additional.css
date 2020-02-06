@@ -1,31 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap);
-
-
-
-
-
 body {
   font-family: Rubik;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 4.4rem;
+  font-family: 'GOTHICB';
+  font-size: 3.6rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 7.04rem;
+  font-size: 5.76rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 2.8rem;
+  font-family: 'GOTHICB';
+  font-size: 2.6rem;
   font-display: swap;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 4.48rem;
+  font-size: 4.16rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'GOTHIC';
   font-size: 1rem;
   font-display: swap;
 }
@@ -33,15 +26,15 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1.4rem;
+  font-family: 'GOTHICB';
+  font-size: 1.6rem;
   font-display: swap;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.24rem;
+  font-size: 2.56rem;
 }
 .display-7 {
-  font-family: 'Arvo', serif;
+  font-family: 'GOTHIC';
   font-size: 1rem;
   font-display: swap;
 }
@@ -55,14 +48,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.52rem;
-    font-size: calc( 2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.88rem;
+    font-size: calc( 1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.24rem;
-    font-size: calc( 1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.08rem;
+    font-size: calc( 1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.56rem + (2.6 - 1.56) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.8rem;
@@ -70,9 +63,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -547,7 +540,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Arvo', serif;
+  font-family: 'GOTHIC';
   font-size: 1rem;
   font-display: swap;
 }
@@ -3726,88 +3719,6 @@ section.lazy-placeholder:after {
     -webkit-flex-basis: 33%;
     flex-basis: 33%;
   }
-}
-.cid-rP62NXHrTF {
-  padding-top: 30px;
-  padding-bottom: 0px;
-  background-color: #f9f9f9;
-}
-.cid-rP62NXHrTF .nav-tabs {
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  border-bottom: none;
-}
-.cid-rP62NXHrTF .nav-tabs .nav-link {
-  box-sizing: border-box;
-  color: #000000;
-  font-style: normal;
-  font-weight: 500;
-  border-radius: 3px;
-  border: 1px solid #000000;
-  padding: 1rem 3rem;
-  margin: 0.4rem .8rem !important;
-  transition: all .3s;
-}
-.cid-rP62NXHrTF .nav-tabs .nav-link:hover {
-  background-color: #073b4c;
-}
-.cid-rP62NXHrTF .nav-tabs .nav-link:focus {
-  box-shadow: none;
-  background-color: #073b4c;
-}
-.cid-rP62NXHrTF .nav-tabs .nav-link.active {
-  font-weight: 500;
-  color: #ffffff;
-  font-style: normal;
-  border: none;
-  background: #073b4c;
-}
-.cid-rP62NXHrTF .nav-tabs .nav-link.active:hover {
-  border: none;
-}
-.cid-rP62NXHrTF .mbr-section-subtitle {
-  color: #767676;
-  text-align: left;
-}
-.cid-rP62NXHrTF p {
-  color: #767676;
-}
-.cid-rP62NXHrTF .media-container-row {
-  -webkit-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-}
-.cid-rP62NXHrTF .mbr-figure {
-  -webkit-flex-shrink: 0;
-  flex-shrink: 0;
-  -webkit-align-self: flex-start;
-  align-self: flex-start;
-  padding-right: 4rem;
-  padding-right: 0;
-  padding-left: 4rem;
-}
-.cid-rP62NXHrTF .mbr-text {
-  word-break: break-word;
-}
-@media (max-width: 991px) {
-  .cid-rP62NXHrTF .media-container-row {
-    -webkit-flex-direction: column-reverse;
-    flex-direction: column-reverse;
-  }
-  .cid-rP62NXHrTF .mbr-figure {
-    padding-right: 0;
-    padding-left: 0;
-    padding-bottom: 2rem;
-    padding-bottom: 0;
-    padding-top: 2rem;
-  }
-}
-.cid-rP62NXHrTF H2 {
-  text-align: left;
-}
-.cid-rP62NXHrTF P {
-  color: #000000;
 }
 .cid-rNnY8LxdwZ {
   padding-top: 30px;

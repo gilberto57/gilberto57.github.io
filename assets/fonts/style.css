@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'GOTHICB';
+   font-display: swap;
+   src: url('GOTHICB/font.TTF');
+}
+@font-face {
+   font-family: 'GOTHIC';
+   font-display: swap;
+   src: url('GOTHIC/font.TTF');
+}
