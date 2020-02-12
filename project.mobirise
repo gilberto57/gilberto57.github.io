@@ -3438,7 +3438,7 @@
                 "overlayOpacity": "0.5"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/factor-de-produccion.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/factor-de-produccion-1.jpeg",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
@@ -3458,7 +3458,7 @@
                 "overlayOpacity": "0.3"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/plan-de-produccion.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/plan-de-produccion-1.jpeg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
